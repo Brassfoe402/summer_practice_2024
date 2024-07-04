@@ -9,11 +9,29 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+
+  
+  cupertino_icons: ^1.0.6
+  scrollable_positioned_list: ^0.3.8
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+  
   flutter_lints: ^3.0.0
 
+
 flutter:
+
+  
   uses-material-design: true
+
+  generate: true
+
+
+  assets:
+    - assets/images/coffee.jpg
